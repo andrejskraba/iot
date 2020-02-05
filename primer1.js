@@ -21,6 +21,6 @@ http.createServer(function(req, res){ // http.createServer([requestListener])
         
     res.writeHead(200, {"Content-Type": "text/html; charset=utf-8"});
     res.write("Za test vpišite v brskalnikovo vrstico z naslovom: http://164.8.76.28:xyz80/1 <br>");
-    res.write("ali: http://164.8.76.28:xyz80/1/0<br>");
+    res.write("ali: http://164.8.76.26:xyz80/1/0<br>");
     res.end("Vrednost operatorja: " + operator);
 }).listen(8080);
